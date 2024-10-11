@@ -1,0 +1,53 @@
+.container {
+    text-align: center;
+    /* margin: 10px; */
+
+}
+
+button {
+    padding: 10px;
+    border: 0px;
+    margin: 10px;
+    font-size: 22px;
+    /* transition: all 0.5s; */
+}
+
+img {
+    width: 600px;
+    display: none;
+    transition: all 40s ease;
+}
+
+.container>.catimage {
+    width: 600px;
+    /* display: block; */
+    transition: all 20s;
+}
+
+.cat:hover~.catimage,
+.dog:hover~.dogimage,
+.mobile:hover~.mobileimage,
+.house:hover~.houseimage,
+.thunderstorm:hover~.thunderstormimage {
+    display: block;
+    margin: auto;
+}
+
+/* .dog:hover~.dogimage {
+    display: block;
+    margin: auto;
+} 
+.mobile:hover~.mobileimage {
+    display: block;
+    margin: auto;
+}
+
+.house:hover~.houseimage {
+    display: block;
+    margin: auto;
+}
+
+.thunderstorm:hover~.thunderstormimage {
+    display: block;
+    margin: auto;
+} */
